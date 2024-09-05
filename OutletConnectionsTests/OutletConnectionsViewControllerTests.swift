@@ -7,5 +7,7 @@ final class OutletConnectionsViewControllerTests: XCTestCase {
         
         sut.loadViewIfNeeded()
         
+        XCTAssertNotNil(sut.label, "label")
+        XCTAssertNotNil(sut.button, "button")
     }
 }
