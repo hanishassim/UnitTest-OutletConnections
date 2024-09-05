@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "25B56B22-A842-40A1-993A-F8C73D824623",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:OutletConnections.xcodeproj",
+      "identifier" : "CD6951792C89425C00931F0D",
+      "name" : "OutletConnections"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:OutletConnections.xcodeproj",
+        "identifier" : "CD69518F2C89425E00931F0D",
+        "name" : "OutletConnectionsTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:OutletConnections.xcodeproj",
+        "identifier" : "CD6951992C89425E00931F0D",
+        "name" : "OutletConnectionsUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
